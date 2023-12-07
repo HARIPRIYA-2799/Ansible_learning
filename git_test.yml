@@ -5,7 +5,7 @@
 
   tasks:
   - name: add lines
-      lineinfile:
+    lineinfile:
         path:/home/ubuntu/hari
         line: 'your line to add'  
         create: yes
