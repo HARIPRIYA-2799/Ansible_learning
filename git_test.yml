@@ -8,6 +8,6 @@
     lineinfile:
         path: /home/ubuntu/hari
         line: 'your line to add'
-        line: "can we add this too"
+        line: 'can we add this too'
         create: yes
 
