@@ -1,1 +1,12 @@
--
+---
+- name: oh git
+  hosts: all
+  become_user: root
+
+  tasks:
+  - name: add lines
+      lineinfile:
+        path:/home/ubuntu/hari
+        line: 'your line to add'  
+        create: yes
+
